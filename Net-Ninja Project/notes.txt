@@ -1,0 +1,23 @@
+	GET & POST
+
+:- Get - Sends data in Url 
+
+:- POST -Sends data in the reuest header (hidden)
+
+:- php make name attribute as key for $_GET & $_POST
+	eg:- <input type="text" name ="email"> 
+		.here 'email' is  key
+		. it can be used as $_GET['email'] or $_POST['email'] to read values or data	
+
+:-Agar ye code `form.php` file me hi hai, to:
+
+	<form action="form.php" method="POST">
+
+	theek hai.
+
+	Lekin agar code kisi aur file (jaise index.php) me hai aur submit `form.php` par ja raha hai, to echoes us file me 
+	hone chahiye jahan request land kar rahi hai.
+
+:- mysqli_connect() :- to connect database to php 
+						-: mysqli -  'i' in mysqli refers to 'improved'
+						-: it is a procedual way to connect db

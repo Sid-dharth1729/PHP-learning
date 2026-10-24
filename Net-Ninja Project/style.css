@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* footer */
+body{
+    background-color: rgb(206, 206, 206);
+    
+}
+/* navbar */
+.nav-cont{
+    background-color: #f0c37c;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+/* form  */
+.pizza-form{        
+    background-color: #ecf3f9;
+    border-radius: 15px;
+}
+/* CARD */
+.card img{
+    width: 100px;
+    margin: 0px auto !important;
+    position: relative;
+    top: -15px;
+}
+.card:hover{
+    transform: scale(1.01);
+    background-color: #f9eedb;
+}
+.more-link:hover{
+    text-decoration: underline !important;
+}
